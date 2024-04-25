@@ -1,0 +1,21 @@
+<div style="text-align: center;">
+<img src="/assets/icon.png" alt="Image description" style="display: inline-block;">
+</div>
+<div style="text-align: center;">
+    <h5>CHAMPIONS</h5>
+    <br>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3" *ngFor="let item of cardArr">
+            <div class="card">
+                <img class="card-img-top" [src]="'/assets/' + item.avatar" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,59 @@
+ .card{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    border: 3px solid #ffbb00;
+    box-shadow: 2px 3px 4px #ad934f;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a0104;
+    text-align: center;
+} 
+
+.card-text{
+    font-size: 1rem;
+    color: #2a0104;
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    width: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+h5{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#8b6d38;
+    text-align: center;
+}
+
+h5:hover{
+    color: #ffbb00;
+    transition: all 0.3s ease-in-out;
+}
